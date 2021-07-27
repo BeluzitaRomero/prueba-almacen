@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*----------------------------------BODY-----*/
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(247, 228, 228);
+}
+/*---------------------------------HEADER----*/
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-image: url(../img/Header-impar.png);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+
+  #header__logo {
+    width: 30%;
+    min-width: 20rem;
+    margin: 1% 1% 1% 1%;
+  }
+
+  nav {
+    width: 100%;
+    background-image: linear-gradient(rgb(245, 187, 203), rgb(247, 228, 228));
+
+    .nav-item:hover {
+      background-color: rgba(245, 187, 203, 0.61);
+
+      .nav-link:hover {
+        color: black;
+      }
+    }
+  }
+}
+
+/*------------------------------FOOTER-------*/
+footer {
+  padding: 2%;
+  background-image: url(../img/footer.png);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  .footer__derechos {
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    flex: 1;
+
+    h4 {
+      font-size: 1rem;
+    }
+  }
+
+  #footer__links {
+    flex: 1;
+
+    .linksFooter {
+      display: flex;
+      list-style: none;
+      justify-content: flex-end;
+
+      li {
+        padding-left: 1rem;
+      }
+    }
+  }
+}
+/*-------------LOGO-CENTRAL-PIE-DE-PAGINA----*/
+.imgLogo {
+  width: 8rem;
+  margin: auto;
+  margin-top: 6%;
+}

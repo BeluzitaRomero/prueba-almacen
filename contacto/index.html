@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Contacto- Almacén de cosas dulces</title>
+  </head>
+  <body>
+    <header>
+      <img
+        id="header__logo"
+        src="../img/bullvetti.png"
+        alt="logo fuente almacen de cosas dulces"
+      />
+      <nav class="navbar navbar-expand-lg navbar-light bg-light py-0">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../productos">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../galeria">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../conocenos">Conocenos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="contacto container">
+      <h1 class="contacto__titulo">
+        ¿Necesitas más info para organizar tu evento?
+      </h1>
+      <div class="contacto__principal container-fluid">
+        <form>
+          <div class="datosPersonales">
+            <div class="nombreApellido">
+              <input
+                class="inputDatos"
+                type="text"
+                id="nombre"
+                name="Nombre"
+                placeholder="Nombre"
+              />
+              <input
+                class="inputDatos"
+                type="text"
+                id="apellido"
+                name="Apellido"
+                placeholder="Apellido"
+              />
+            </div>
+            <div class="telefono">
+              <input
+                class="inputDatos"
+                type="text"
+                id="email"
+                name="email"
+                placeholder="ejemplo@email.com"
+              />
+              <input
+                class="inputDatos"
+                type="number"
+                id="telefono"
+                name="telefono"
+                placeholder="Teléfono"
+              />
+            </div>
+          </div>
+          <div>
+            <p>Dejanos tu mensaje:</p>
+            <textarea
+              class="textArea"
+              name=""
+              id=""
+              cols="60"
+              rows="10"
+            ></textarea>
+          </div>
+          <div id="boton">
+            <input
+              class="boton"
+              type="submit"
+              name="Enviar mensaje"
+              value="Enviar mensaje"
+            />
+            <input
+              class="boton"
+              type="reset"
+              name="Borrar todo"
+              value="Borrar todo"
+            />
+          </div>
+        </form>
+        <img
+          class="logoRectangular"
+          src="../img/cookiepia.jpg"
+          alt="logo rectangular de almacen de cosas dulces"
+        />
+      </div>
+    </section>
+
+    <section class="contacto2 container">
+      <h2 class="aviso">¡No te olvides!</h2>
+      <p>
+        Los presupuestos tienen una vigencia de 10 días corridos, excepto los
+        casos que sean abonados en su totalidad.
+        <br />
+        Los pedidos deben ser realizados y confirmados con un mínimo de 10 días
+        de anticipacion.
+      </p>
+    </section>
+    <div class="imgLogo">
+      <img
+        src="../img/Logo_circular_recortado.png"
+        alt="logo circular almacen de cosas dulces"
+        height="90px"
+        width="120px"
+      />
+    </div>
+    <footer>
+      <div class="footer__derechos">
+        <h4>Copyright © 2021 <br />Todos los derechos reservados</h4>
+      </div>
+      <div id="footer__links">
+        <ul class="linksFooter">
+          <li>
+            <a
+              href="https://www.facebook.com/AlmacendeCosasDulcesOK"
+              target="_blank"
+              ><img
+                src="../icon/facebook.png"
+                alt="icono facebook"
+                width="35"
+                height="35"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/almacendecosasdulces/?hl=es-la"
+              target="_blank"
+              ><img
+                src="../icon/instagram.png"
+                alt="icono instagram"
+                width="35"
+                height="35"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="/icon/whatsapp.png"
+                alt="icono whatsapp"
+                width="35"
+                height="35"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  </body>
+</html>
